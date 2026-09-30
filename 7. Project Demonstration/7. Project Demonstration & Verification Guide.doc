@@ -1,0 +1,123 @@
+﻿<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>7. Project Demonstration</title>
+<!--[if gte mso 9]>
+<xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:DoNotOptimizeForBrowser/>
+ </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+    @page {
+        size: A4;
+        margin: 25mm 20mm 25mm 20mm;
+    }
+    body {
+        font-family: 'Calibri', 'Arial', sans-serif;
+        color: #000000;
+        line-height: 1.5;
+        font-size: 11pt;
+        background-color: #ffffff;
+    }
+    h1 {
+        color: #000000;
+        font-size: 20pt;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 5px;
+        border-bottom: 2px solid #000000;
+        padding-bottom: 5px;
+    }
+    .doc-subtitle {
+        font-size: 11pt;
+        color: #333333;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+    h2 {
+        color: #000000;
+        font-size: 14pt;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 3px;
+    }
+    h3 {
+        color: #000000;
+        font-size: 12pt;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    p, li {
+        color: #000000;
+        font-size: 11pt;
+    }
+    ul, ol {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+    li {
+        margin-bottom: 4px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+    }
+    th, td {
+        border: 1px solid #000000;
+        padding: 8px 10px;
+        text-align: left;
+        font-size: 10.5pt;
+        color: #000000;
+    }
+    th {
+        background-color: #f2f2f2;
+        color: #000000;
+        font-weight: bold;
+    }
+    code {
+        font-family: 'Consolas', 'Courier New', monospace;
+        font-size: 10pt;
+        color: #000000;
+        background-color: #f5f5f5;
+        padding: 2px 4px;
+    }
+    pre {
+        font-family: 'Consolas', 'Courier New', monospace;
+        font-size: 10pt;
+        color: #000000;
+        background-color: #f8f8f8;
+        border: 1px solid #000000;
+        padding: 10px;
+        white-space: pre-wrap;
+        margin: 10px 0;
+    }
+</style>
+</head>
+<body>
+    <h1>7. Project Demonstration</h1>
+<div class="doc-subtitle">Verification Proofs & Demonstration Guide</div>
+
+<h2>Required Screenshot Placement Table</h2>
+<table>
+<tr><th>File Name</th><th>Description</th></tr>
+<tr><td><code>01_User_and_Roles.png</code></td><td>User Administration -> EEE User creation & roles (bb1-bb4) assigned.</td></tr>
+<tr><td><code>02_Table_Fields.png</code></td><td>System Definition -> Tables -> u_institution_details schema & choice values.</td></tr>
+<tr><td><code>03_Read_ACL_Script.png</code></td><td>System Security -> ACL Read rule with bb1 role, Branch is EEE, and script.</td></tr>
+<tr><td><code>04_CRUD_ACLs.png</code></td><td>Create (bb2), Write (bb3), Delete (bb4) ACL definitions list.</td></tr>
+<tr><td><code>05_EEE_User_Verification.png</code></td><td>Impersonate EEE User -> Shows ONLY EEE branch records.</td></tr>
+<tr><td><code>06_Non_Role_User_Verification.png</code></td><td>Impersonate User without roles -> 0 records displayed.</td></tr>
+<tr><td><code>07_Admin_User_Verification.png</code></td><td>Impersonate Admin -> Displays all ECE, EEE, CSE records.</td></tr>
+</table>
+</body>
+</html>
